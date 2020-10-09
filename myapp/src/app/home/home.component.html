@@ -1,0 +1,32 @@
+<div class="row">
+    <div class="col-md-6">
+        <a routerLink="/movie" class="btn btn-default">
+            Add New Movie
+        </a>
+    </div>
+</div>
+<div class="row">
+    <!-- <div *ngFor="let m of arrMovies" class="col-md-3" style="text-align: center;">
+        <h1>{{ m.title }}</h1>
+        <img class="img-responsive" src="{{ m.img }}" alt="" />
+    </div> -->
+
+    <div *ngFor="let m of arrMovies" class="card mx-auto" style="width:18rem; margin: 10px;">
+        <img class="card-img-top" src="{{ m.img }}" alt="Card image cap">
+
+        <div class="card-body">
+            <h5 class="card-title">
+                {{ m.title }}
+            </h5>
+
+            <a class="btn btn-default" [routerLink] = "['/updateMovie',m.id]" >
+                Edit
+            </a>
+
+            <button class="btn btn-link" (click)="deleteMovie(m.id)">
+                Delete
+            </button>
+        </div>
+    </div>
+
+</div>

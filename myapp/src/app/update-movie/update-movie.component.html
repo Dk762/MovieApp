@@ -1,0 +1,34 @@
+<div class="row">
+    <div class="col-md-6">
+        Update Movie
+    </div>
+</div>
+
+<form id="form1" name="form1" #movieData="ngForm" (ngSubmit)="updateMovie(movieData.value)">
+    <div class="col-md-6">
+    <table class="table">
+        <tr>
+            <td>Title</td>
+            <td> <input type="text" name="title" class="form-control" [(ngModel)]="data.title" ngModel /></td>
+        </tr>
+        <tr>
+            <td>Description</td>
+            <td><input type="text" name="description" class="form-control" [(ngModel)]="data.description" ngModel /></td>
+        </tr>
+        <tr>
+            <td>Image URL</td>
+            <td><input type="text" name="img" class="form-control" [(ngModel)]="data.img" ngModel /></td>
+        </tr>
+        <tr>
+            <td>Average Ratings</td>
+            <td> <input type="text" name="avgrats" class="form-control" [(ngModel)]="data.avgrats" ngModel /></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td> <input type="submit" value="Update Movie" class="btn btn-primary" /></td>
+        </tr>
+
+
+    </table>
+</div>
+</form>

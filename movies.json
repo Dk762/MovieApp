@@ -1,0 +1,101 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Bad Boys for Life",
+      "description": "Miami detectives Mike Lowrey and Marcus Burnett must face off against a mother-and-son pair of drug lords who wreak vengeful havoc on their city.",
+      "img": "https://m.media-amazon.com/images/M/MV5BMWU0MGYwZWQtMzcwYS00NWVhLTlkZTAtYWVjOTYwZTBhZTBiXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UY209_CR0,0,140,209_AL_.jpg",
+      "avgrats": "6.6",
+      "myrating": "0",
+      "comments": ""
+    },
+    {
+      "id": 2,
+      "title": "Enola Holmes",
+      "description": "When Enola Holmes-Sherlock's teen sister-discovers her mother missing, she sets off to find her, becoming a super-sleuth in her own right as she outwits her famous brother and unravels a dangerous conspiracy around a mysterious young Lord.",
+      "img": "https://m.media-amazon.com/images/M/MV5BZjNkNzk0ZjEtM2M1ZC00MmMxLTlmOWEtNWRlZTc1ZTUyNzY4XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UY209_CR0,0,140,209_AL_.jpg",
+      "avgrats": "6.7",
+      "myrating": "0",
+      "comments": ""
+    },
+    {
+      "id": 3,
+      "title": "The Devil All the Time",
+      "description": "Sinister characters converge around a young man devoted to protecting those he loves in a postwar backwoods town teeming with corruption and brutality.",
+      "img": "https://m.media-amazon.com/images/M/MV5BZmE1NmVmN2EtMjZmZC00YzAyLWE4MWEtYjY5YmExMjUxODU1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UY209_CR0,0,140,209_AL_.jpg",
+      "avgrats": "7.1",
+      "myrating": "0",
+      "comments": ""
+    },
+    {
+      "id": 4,
+      "title": "The Babysitter: Killer Queen",
+      "description": "Two years after Cole survived a satanic blood cult, he's living another nightmare: high school. And the demons from his past? Still making his life hell.",
+      "img": "https://m.media-amazon.com/images/M/MV5BMWEwMDU3MWUtZTdiMy00Yjg5LWFiNWYtYTRmZGExNzk5YjQ2XkEyXkFqcGdeQXVyNTUwOTkzMzY@._V1_UY209_CR0,0,140,209_AL_.jpg",
+      "avgrats": "5.8",
+      "myrating": "0",
+      "comments": ""
+    },
+    {
+      "id": 5,
+      "title": "Bill & Ted Face the Music",
+      "description": "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+      "img": "https://m.media-amazon.com/images/M/MV5BOTRiNzFhNjAtNTdhMS00ZjViLWFhNTUtMWJlMTJkMGM1YzM4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UY209_CR0,0,140,209_AL_.jpg",
+      "avgrats": "6.2",
+      "myrating": "0",
+      "comments": ""
+    },
+    {
+      "id": 6,
+      "title": "Bad Boys for Life",
+      "description": "Miami detectives Mike Lowrey and Marcus Burnett must face off against a mother-and-son pair of drug lords who wreak vengeful havoc on their city.",
+      "img": "https://m.media-amazon.com/images/M/MV5BMWU0MGYwZWQtMzcwYS00NWVhLTlkZTAtYWVjOTYwZTBhZTBiXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UY209_CR0,0,140,209_AL_.jpg",
+      "avgrats": "6.6",
+      "myrating": "0",
+      "comments": ""
+    },
+    {
+      "id": 7,
+      "title": "Enola Holmes",
+      "description": "When Enola Holmes-Sherlock's teen sister-discovers her mother missing, she sets off to find her, becoming a super-sleuth in her own right as she outwits her famous brother and unravels a dangerous conspiracy around a mysterious young Lord.",
+      "img": "https://m.media-amazon.com/images/M/MV5BZjNkNzk0ZjEtM2M1ZC00MmMxLTlmOWEtNWRlZTc1ZTUyNzY4XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UY209_CR0,0,140,209_AL_.jpg",
+      "avgrats": "6.7",
+      "myrating": "0",
+      "comments": ""
+    },
+    {
+      "id": 8,
+      "title": "The Devil All the Time",
+      "description": "Sinister characters converge around a young man devoted to protecting those he loves in a postwar backwoods town teeming with corruption and brutality.",
+      "img": "https://m.media-amazon.com/images/M/MV5BZmE1NmVmN2EtMjZmZC00YzAyLWE4MWEtYjY5YmExMjUxODU1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UY209_CR0,0,140,209_AL_.jpg",
+      "avgrats": "7.1",
+      "myrating": "0",
+      "comments": ""
+    },
+    {
+      "id": 9,
+      "title": "The Babysitter: Killer Queen",
+      "description": "Two years after Cole survived a satanic blood cult, he's living another nightmare: high school. And the demons from his past? Still making his life hell.",
+      "img": "https://m.media-amazon.com/images/M/MV5BMWEwMDU3MWUtZTdiMy00Yjg5LWFiNWYtYTRmZGExNzk5YjQ2XkEyXkFqcGdeQXVyNTUwOTkzMzY@._V1_UY209_CR0,0,140,209_AL_.jpg",
+      "avgrats": "5.8",
+      "myrating": "0",
+      "comments": ""
+    },
+    {
+      "id": 10,
+      "title": "Bill & Ted Face the Music",
+      "description": "Once told they'd save the universe during a time-traveling adventure, 2 would-be rockers from San Dimas, California find themselves as middle-aged dads still trying to crank out a hit song and fulfill their destiny.",
+      "img": "https://m.media-amazon.com/images/M/MV5BOTRiNzFhNjAtNTdhMS00ZjViLWFhNTUtMWJlMTJkMGM1YzM4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UY209_CR0,0,140,209_AL_.jpg",
+      "avgrats": "6.2",
+      "myrating": "0",
+      "comments": ""
+    },
+    {
+      "title": "fgh1",
+      "description": "fghf1",
+      "img": "https://m.media-amazon.com/images/M/MV5BMWU0MGYwZWQtMzcwYS00NWVhLTlkZTAtYWVjOTYwZTBhZTBiXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UY209_CR0,0,140,209_AL_.jpg",
+      "avgrats": "5",
+      "id": 12
+    }
+  ]
+}

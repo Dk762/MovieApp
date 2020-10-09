@@ -1,0 +1,38 @@
+<div class="row">
+    <div class="col-md-6">
+        <a routerLink="/" class="btn btn-default">Back</a>
+    </div>
+</div>
+
+<form id="form1" name="form1" #movieData="ngForm" (ngSubmit)="addNewMovie(movieData.value)">
+    <div class="col-md-6">
+    <table class="table">
+        <tr>
+            <td>Title</td>
+            <td> <input type="text" name="title" class="form-control" ngModel /></td>
+        </tr>
+        <tr>
+            <td>Description</td>
+            <td><input type="text" name="description" class="form-control" ngModel /></td>
+        </tr>
+        <tr>
+            <td>Image URL</td>
+            <td><input type="text" name="img" class="form-control" ngModel /></td>
+        </tr>
+        <tr>
+            <td>Average Ratings</td>
+            <td> <input type="text" name="avgrats" class="form-control" ngModel /></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td> <input type="submit" value="Add Movie" class="btn btn-primary" /></td>
+        </tr>
+
+
+    </table>
+</div>
+</form>
+<br/><br/>
+<h2 *ngIf = "isSuccess">
+    {{ strConfirmation }}
+</h2>
